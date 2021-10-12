@@ -1,7 +1,7 @@
 document.getElementById("b1").addEventListener("click", onclick);
-document.addEventListener("keydown", onkeydown)
+document.addEventListener("keydown", onclick)
 
-function onkeydown(e){
+function onclick(e){
     if(e.key === "Enter");
 }
 
